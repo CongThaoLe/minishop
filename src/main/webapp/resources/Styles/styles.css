@@ -1,0 +1,319 @@
+@charset "ISO-8859-1";
+
+#link {
+	color: white;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-family: 'Roboto';
+}
+
+/* START CSS LOGIN */
+#body-login {
+	background-color: #00909C;
+	font-family: 'Roboto';
+}
+
+#body-flex-login {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-login {
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+}
+
+#container-login-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 380px;
+	height: 610px;
+	background-image: url("../image/background-2.jpg");
+	padding: 0 16px;
+}
+
+#container-login-right {
+	padding: 0 24px;
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.header-login {
+	margin-top: 32px;
+}
+
+#text-logo {
+	font-size: 48px;
+}
+
+#hint-text-logo {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+#header-top-left {
+	text-align: center;
+	color: white;
+}
+
+#header-bottom-left span {
+	color: white;
+	margin-left: 8px;
+}
+
+#header-bottom-left {
+	margin-bottom: 64px;
+}
+
+#header-top-right {
+	font-size: 20px;
+	color: #B7B7B7;
+}
+
+.active {
+	color: #DA7C79;
+}
+
+#container-social-login {
+	align-self: flex-end;
+	margin-bottom: 16px;
+}
+
+#container-center-login-right input[type=text] {
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+
+#container-center-login-right input[type=password] {
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+
+#container-center-login-right input[type=submit] {
+	margin-top: 24px;
+	color: white;
+	font-size: 14px;
+}
+
+.material-text-input {
+	
+}
+
+.container-signup-form{
+	display: none;
+}
+
+.material-primary-button {
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	background-color: #00909C;
+}
+
+.input-icon-email {
+	background: url(../image/icon_mail.png) no-repeat scroll 16px;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	padding-left: 50px;
+}
+
+.circle-avartar {
+	background: red;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin-top: 4px;
+}
+.circle-avartar span{
+	padding: 4px;
+}
+
+.input-icon-password {
+	background: url(../image/icon_password.png) no-repeat scroll 16px;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	padding-left: 50px;
+}
+
+.activeLink {
+	background: red;
+}
+
+#dangnhap{
+	cursor: pointer;
+}
+#dangky{
+	cursor: pointer;
+}
+/* END CSS LOGIN */
+
+/* START CSS CHI TIET PAGE */
+#header-chitiet{
+	background: black;
+}
+.img-chitiet{
+	height: 335px;
+}
+/* END CSS CHI TIET PAGE */
+
+/*START CSS MENU*/
+ul{
+	list-style-type: none;
+}
+.mymenu{
+	padding: 0;
+	margin: 0;
+}
+.mymenu li{
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px 0px;
+}
+/*END CSS MENU*/
+
+/*START CSS 4 HOME PAGE*/
+#header {
+	height: 662px;
+	background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+		url("../image/background-header.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.none-nav {
+	background: none !important;
+	border: none !important;
+}
+
+.navbar-center {
+	margin-left: 30% !important;
+}
+
+.navbar-nav a {
+	color: white !important;
+}
+
+.active>a {
+	color: #80ff01 !important;
+	font-weight: bold !important;
+}
+
+.open {
+	color: #80ff01 !important;
+	background: none !important;
+	font-weight: bold !important;
+}
+
+.open a {
+	color: black !important;
+}
+
+.event-header {
+	text-align: center;
+	margin-top: 216px;
+}
+
+.event-header>span {
+	color: white;
+}
+
+.event-header>button {
+	color: white;
+	background: #39FFE1;
+	border: #39FFE1;
+}
+
+@media ( min-width : 576px) {
+}
+
+@media ( min-width : 768px) {
+}
+
+@media ( min-width : 992px) {
+	.navbar-center {
+		margin-left: 0 !important;
+	}
+}
+
+#info {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#info>span {
+	margin-top: 16px;
+}
+
+#title-sanpham {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.title-sanpham-loaddanhmuc{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.sanpham {
+	margin-top: 48px;
+}
+
+#footer {
+	margin-top: 42px;
+	background: black;
+	padding: 38px;
+	background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+		url("../image/background-footer.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#footer span {
+	color: white;
+}
+
+#footer p {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.title-footer {
+	font-size: 32px;
+}
+
+.footer-input {
+	border: 0;
+	background: #EAEAEA;
+	width: 100%;
+	margin-bottom: 12px;
+}
+/*END CSS 4 HOME PAGE*/
+
+/*START ADD ITEMS*/
+#chitietsanpham{
+	display: none;
+}
+/*END ADD ITEMS*/
